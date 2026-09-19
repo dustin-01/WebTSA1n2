@@ -18,3 +18,11 @@ setup
 5. run `php spark db:seed TaskSystemSeeder`
 6. run `php spark serve`
 7. open `http://localhost:8080`
+
+infinityfree
+
+1. create the database in the infinityfree control panel
+2. import `database.sql` using phpmyadmin
+3. upload the project files to `htdocs` using ftp
+4. make sure `.env` `.htaccess` and the `vendor` folder are uploaded
+5. open the website link
